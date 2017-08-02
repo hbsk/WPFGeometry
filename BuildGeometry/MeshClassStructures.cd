@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Has an association with FileReader and FileFormatFactory">
+    <Position X="10.135" Y="3.344" Height="0.562" Width="1.294" />
+  </Comment>
+  <Comment CommentText="This should be an association, not a property">
+    <Position X="6.479" Y="2.635" Height="0.594" Width="1.429" />
+  </Comment>
+  <Comment CommentText="Knows about different file format readers and GeometryData variants">
+    <Position X="11.469" Y="1.792" Height="0.625" Width="1.575" />
+  </Comment>
+  <Class Name="BuildGeometry.FileReader">
+    <Position X="4.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAJAAAAAQAAAAAAAQAAAAAAgAEAgAAAAAAAAABA=</HashCode>
+      <FileName>FileReader.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="IGeometryData" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="BuildGeometry.STLFileReader">
+    <Position X="1" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>STLFileReader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuildGeometry.STLBinaryFileReader">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAABAgAEAAAAAAACA=</HashCode>
+      <FileName>STLBinaryFileReader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuildGeometry.STLAsciiFileReader">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAwAAAAAAAAAAA=</HashCode>
+      <FileName>STLAsciiFileReader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuildGeometry.Mesh3DData">
+    <Position X="8.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAABAAQABAAAEAAIAAAAAEkAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Mesh3DData.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.523" />
+  </Class>
+  <Class Name="BuildGeometry.FileFormatFactory">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAACBAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FileFormatFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuildGeometry.OBJFileReader">
+    <Position X="4.75" Y="4.75" Width="1.5" />
+    <InheritanceLine Type="BuildGeometry.FileReader" FixedFromPoint="true">
+      <Path>
+        <Point X="5.5" Y="3.401" />
+        <Point X="5.5" Y="4.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>OBJFileReader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuildGeometry.MainWindow" Collapsed="true">
+    <Position X="10.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ADgQAAAIBwCAeESBgIIACAAQAQBIBgIIQcAAkhAIUAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="BuildGeometry.IGeometryData">
+    <Position X="8.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAABAAQAAAAAEAAAAAAAAEgAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>IGeometryData.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
