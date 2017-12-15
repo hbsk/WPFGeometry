@@ -10,3 +10,4 @@ The following are the controls provided in the UI:
 4. Also, there is a Zoom in/Zoom out with mouse wheel - but the camera always looks at the origin.
 5. Left/Right/Up/Down arrows moves the camera around the object, to the left, right, up and down direction respectively.
 6.Move the camera around the object using mouse drag movement.
+7. Currently, the camera tracks a particular position; this needs to be removed.
